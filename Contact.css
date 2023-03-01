@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	
+	
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+	height: 80px;
+	background: #351E00;
+	border-radius: 8px;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+}
+
+nav img{
+	width: 120px;
+	position: sticky;
+	top: 12px;
+	left: 5%;
+	
+}
+
+nav ul{
+	float: right;
+	margin-right: 25px;
+	z-index: 1;
+	position: relative;
+	z-index: 1;
+	
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 15px;
+	
+}
+nav ul li a{
+	position: relative;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+}
+nav ul li a:before{
+	position: absolute;
+	content: '';
+	left: 0;
+	right: 0;
+	top: 15px;
+	height: 50%;
+	width: 100%;
+	background: #B9B9B9;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform .4s linear;
+	
+	
+	
+	
+}
+a:nth-child(1){
+	width: 100px;
+}
+
+nav ul li a:hover:before{
+	transform: scaleX(1);
+	transform-origin: left;
+	font-size: 30px;
+	
+	
+}
+.mothertag{
+	justify-content: center;
+	
+body{
+	background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("milktea.jpg") no-repeat;
+	background-size: cover;
+	background-position: center; 
+	height: 400vh;
+}
+	
